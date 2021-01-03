@@ -1,3 +1,3 @@
 #kokoa clone 2020 update
 
-CSS 연습 중! 멋지다
+HTML & CSS 도전기!
