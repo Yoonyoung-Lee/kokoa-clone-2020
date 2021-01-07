@@ -1,0 +1,16 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: inherit;
+  padding: var(--horizontal-space);
+}
+
+.header__titile {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.header__icons span {
+  margin-left: 20px;
+}
