@@ -19,6 +19,6 @@
   justify-content: flex-end;
   align-items: center;
 }
-.status-bar__column .fa-battery-three-quarters {
+.status-bar__column .material-icons {
   margin: 0px 5px;
 }
