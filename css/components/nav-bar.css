@@ -31,6 +31,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 20px;
-  bottom: 14px;
+  left: 25px;
+  bottom: 24px;
+}
+
+.nav__btn i {
+  font-size: 36px;
 }

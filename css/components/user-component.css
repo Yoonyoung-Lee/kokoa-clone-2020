@@ -1,4 +1,5 @@
 .user-component {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -17,7 +18,7 @@
 
 .user-component__title {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .user-component__subtitle {
@@ -31,4 +32,19 @@
   height: 80px;
   border-radius: 30px;
   margin-right: 20px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin-left: 20px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }

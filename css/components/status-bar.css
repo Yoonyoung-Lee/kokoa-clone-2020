@@ -8,17 +8,16 @@
   width: 33%;
 }
 .status-bar__column:first-child span {
-  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 60px;
 }
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
+  margin-top: 3px;
 }
 .status-bar__column:nth-child(3) {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
-.status-bar__column .material-icons {
-  margin: 0px 5px;
 }
