@@ -12,14 +12,25 @@
   width: 70px;
   height: 70px;
   border-radius: 27px;
-  margin-right: 20px;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-bottom: 6px;
 }
 
 .user-component__title {
   font-weight: 600;
   font-size: 20px;
+}
+
+.user-component__text{
+  margin-left:10px;
+}
+
+.friends-screens .user-component__title {
+  top: 50px;
+  left:15px
+  color: black;
+  margin-top: 15px;
+  margin-right: 30px;
 }
 
 .user-component__subtitle {
@@ -49,9 +60,11 @@
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
   align-items: flex-end;
+  
 }
 
 .user-component__time {
   display: block;
   margin-right: 20px;
 }
+

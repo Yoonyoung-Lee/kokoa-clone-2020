@@ -1,37 +1,36 @@
 .friends-display-link {
-  display: block;
   text-align: center;
+  display: block;
   background-color: #fafafa;
-  padding: 10px 0px;
-  font-size: 15px;
-  margin-bottom: 20px;
-  margin-top: -10px;
+  padding: 15px 0px;
+  font-size: 19px;
+  margin-bottom: 15px;
+  margin-top: -15px;
 }
 
 .friends-display-link i {
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.3);
+  margin: 2px;
 }
 
 .friends-screens {
-  padding: 0px var(--horizontal-space);
+  padding: 0 var(--horizontal-space);
 }
 
 .friends-screen__channel {
-  margin-left: 10px;
+  margin-left: 5px;
   margin-top: 25px;
   border-top: var(--main-border);
   padding-top: 15px;
 }
 
 .friends-screen__channel-header {
-  margin-bottom: 30px;
   display: flex;
+  margin-bottom: 20px;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.user-component__title {
-  color: black;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
 }
 
 @keyframes hideSplashScreen {

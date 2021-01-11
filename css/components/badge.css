@@ -11,3 +11,8 @@
   align-items: center;
   margin-top: 5px;
 }
+
+.user-component__column .badge {
+  margin-left: 10px;
+  bottom: 3px;
+}
